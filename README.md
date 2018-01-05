@@ -1,2 +1,2 @@
 # discreteness
-font tiny component
+front tiny component
