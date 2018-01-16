@@ -3,6 +3,8 @@ layout: default
 title: 我的Blog
 ---
 
+<!--<link href="{{ site.production_url }}/{{ site.atom_path }}" rel="self"/>-->
+<link href="{{ site.baseurl}}/css/index.css}" rel="self"/>
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
 
@@ -10,5 +12,14 @@ title: 我的Blog
     {% for post in site.posts %}
 
     　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endfor %}
 </ul>
