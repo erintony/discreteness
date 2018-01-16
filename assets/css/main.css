@@ -841,7 +841,7 @@ pre code {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: start;
   padding: 1rem;
 }
 
