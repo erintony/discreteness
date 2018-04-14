@@ -78,10 +78,10 @@ var bidirectionBinding = (function($) {
     });
 
     //页面事件触发数据改变
-    $('#exampleInputEmail1').onkeyup(function() {
+    $('#exampleInputEmail1').keyup(function() {
         data.value = $(this).val();
     });
-    $('#exampleInputPassword1').onkeyup(function() {
+    $('#exampleInputPassword1').keyup(function() {
         data.value = $(this).val();
     });
 

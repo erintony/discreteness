@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ff2d36-1da5-426d-80c4-eb68e0d9982d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/display.html" afterPath="$PROJECT_DIR$/_layouts/display.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-04-12-js_bidirection.html" afterPath="$PROJECT_DIR$/_posts/2018-04-12-js_bidirection.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bidirection/js/index.js" afterPath="$PROJECT_DIR$/bidirection/js/index.js" />
     </list>
     <ignored path="discreteness.iws" />
@@ -46,17 +44,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bidirection/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="245">
+              <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -71,16 +69,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-03-29-china-tiger-leaping-gorge.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-03-29-china-tiger-leaping-gorge.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -403,12 +391,12 @@
       <workItem from="1515137246012" duration="2843000" />
       <workItem from="1515916653829" duration="3530000" />
       <workItem from="1516067702426" duration="14621000" />
-      <workItem from="1523455277462" duration="7461000" />
+      <workItem from="1523455277462" duration="7762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28455000" />
+    <option name="totallyTimeSpent" value="28756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="155" y="0" width="1217" height="735" extended-state="0" />
@@ -724,14 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bidirection/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-03-25-welcome-to-jekyll.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -752,6 +732,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="93" lean-forward="false" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bidirection/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
           <folding />
         </state>
       </provider>
