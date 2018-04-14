@@ -1,10 +1,13 @@
 ---
 layout: display
-title: hello
+title: bidirection
 ---
 
 <link rel="stylesheet" href="{{ "/common/bootstrap-3.3.7-dist/css/bootstrap.css" | prepend: site.baseurl }}">
 
+<p>使用js的defineProperty方法和观察者模式实现简单的双向数据绑定</p>
+
+<h3>示例</h3>
 <form>
     <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
@@ -14,17 +17,8 @@ title: hello
         <label for="exampleInputPassword1">Password</label>
         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
     </div>
-    <div class="form-group">
-        <label for="exampleInputFile">File input</label>
-        <input type="file" id="exampleInputFile">
-        <p class="help-block">Example block-level help text here.</p>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox"> Check me out
-        </label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
 </form>
+
+<a href="https://github.com/erintony/discreteness/tree/gh-pages/bidirection/js">源码</a>
 
 <script type="text/javascript" src="{{ "/bidirection/js/index.js" | prepend: site.baseurl }}"></script>

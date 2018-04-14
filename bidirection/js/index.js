@@ -1,5 +1,6 @@
 /**
  * Created by Erin on 2018/4/12.
+ * 双向绑定方法
  */
 var bidirectionBinding = (function($) {
     function Input(data, field) {
@@ -13,7 +14,7 @@ var bidirectionBinding = (function($) {
         register: function (key, fn) {
             this.callbacks.push({
                 key: key,
-                callack: fn
+                callback: fn
             });
         },
         logout: function (key) {
@@ -28,9 +29,11 @@ var bidirectionBinding = (function($) {
         },
         doAction: function(value) {
             for(item in this.callbacks) {
-                this.callbacks[item].callback(calue);
+                this.callbacks[item].callback(value);
             }
         },
+
+        //通过defineProperty实现数据绑定
         bindData: function (field) {
             Object.defineProperty(this, field, {
                 configurable: true,
@@ -55,6 +58,31 @@ var bidirectionBinding = (function($) {
     }
 })(jQuery);
 
+
+
+
 (function($) {
-    console.log('eees');
+    //用于实现双向绑定的数据
+    var data = {
+        value: 0,
+        name: 'input'
+    };
+
+    //注册回掉函数
+    var binding = bidirectionBinding(data, "value");
+    binding.register('exampleInputEmail1', function(value) {
+        $('#exampleInputEmail1').val(value);
+    });
+    binding.register('exampleInputPassword1', function(value) {
+        $('#exampleInputPassword1').val(value);
+    });
+
+    //页面事件触发数据改变
+    $('#exampleInputEmail1').onkeyup(function() {
+        data.value = $(this).val();
+    });
+    $('#exampleInputPassword1').onkeyup(function() {
+        data.value = $(this).val();
+    });
+
 })(jQuery);
