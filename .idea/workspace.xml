@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3ff2d36-1da5-426d-80c4-eb68e0d9982d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bidirection/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bidirection/js/index.js" afterPath="$PROJECT_DIR$/bidirection/js/index.js" />
     </list>
     <ignored path="discreteness.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,17 +44,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bidirection/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="85" column="7" lean-forward="false" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+            <state relative-caret-position="206">
+              <caret line="84" column="15" lean-forward="false" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bidirection/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/button/js/index.js" />
         <option value="$PROJECT_DIR$/_layouts/display.html" />
         <option value="$PROJECT_DIR$/_posts/2018-04-12-js_bidirection.html" />
-        <option value="$PROJECT_DIR$/bidirection/js/index.js" />
         <option value="$PROJECT_DIR$/bidirection/README.md" />
+        <option value="$PROJECT_DIR$/bidirection/js/index.js" />
       </list>
     </option>
   </component>
@@ -354,12 +354,12 @@
       <workItem from="1515137246012" duration="2843000" />
       <workItem from="1515916653829" duration="3530000" />
       <workItem from="1516067702426" duration="14621000" />
-      <workItem from="1523455277462" duration="8178000" />
+      <workItem from="1523455277462" duration="9087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29172000" />
+    <option name="totallyTimeSpent" value="30081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="155" y="0" width="1217" height="735" extended-state="0" />
@@ -699,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bidirection/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="7" lean-forward="false" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-04-12-js_bidirection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
@@ -719,6 +711,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bidirection/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="84" column="15" lean-forward="false" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
           <folding />
         </state>
       </provider>

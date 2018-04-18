@@ -27,7 +27,7 @@ var bidirectionBinding = (function($) {
                 }
             }
         },
-        doAction: function(value) {
+        doAction: function (value) {
             for(item in this.callbacks) {
                 this.callbacks[item].callback(value);
             }
@@ -79,10 +79,10 @@ var bidirectionBinding = (function($) {
 
     //页面事件触发数据改变
     $('#exampleInputEmail1').keyup(function() {
-        data.value = $(this).val();
+        binding.value = $(this).val();
     });
     $('#exampleInputPassword1').keyup(function() {
-        data.value = $(this).val();
+        binding.value = $(this).val();
     });
 
 })(jQuery);
